@@ -1,0 +1,11 @@
+# https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot
+
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      # Runs once each week. By default, this is on Monday. To modify this, use schedule.day
+      # To set a specific time, you can use schedule.time and schedule.timezone.
